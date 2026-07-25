@@ -65,8 +65,8 @@
 
         // ข้อมูลจำลองสำหรับทดสอบ (ระบบจริงจะดึงจาก Firebase)
         const mockEmployees = [
-            { id: 'F601', name: 'พีช', fullName: 'พีรณัฐ', clubId: 'c1', status: 'ST', contractDays: 15, startDate: '2026-07-01' },
-            { id: 'F602', name: 'เฟย์', fullName: 'ฟาริดา', clubId: 'c1', status: 'SL', contractDays: 10, startDate: '2026-07-15' },
+            { id: 'F601', name: 'เบิ้ล', fullName: 'พีรณัฐ', clubId: 'c1', status: 'ST', contractDays: 15, startDate: '2026-07-01' },
+            { id: 'F602', name: 'เบิ้ล', fullName: 'ฟาริดา', clubId: 'c1', status: 'SL', contractDays: 10, startDate: '2026-07-15' },
             { id: 'F603', name: 'ตี้', fullName: 'ธีรเดช', clubId: 'c2', status: 'CR', contractDays: 12, startDate: '2026-07-20' },
             { id: 'F604', name: 'เจแอน', fullName: 'จิราพร', clubId: 'c3', status: 'ENDED', contractDays: 10, startDate: '2026-06-01' },
         ];
@@ -214,7 +214,7 @@
                         <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
                             <h3 className="font-bold text-lg mb-4 text-gray-800 dark:text-white">จัดอันดับพนักงาน (Task List)</h3>
                             <div className="space-y-3">
-                                {['พีช (F601) - 15 ดื่ม', 'เฟย์ (F602) - 12 ดื่ม', 'ตี้ (F603) - 8 ดื่ม'].map((p, i) => (
+                                {['เบิ้ล (F601) - 15 ดื่ม', 'เบิ้ล (F602) - 12 ดื่ม', 'ตี้ (F603) - 8 ดื่ม'].map((p, i) => (
                                     <div key={i} className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
                                         <div className="flex items-center gap-3">
                                             <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 font-bold">
